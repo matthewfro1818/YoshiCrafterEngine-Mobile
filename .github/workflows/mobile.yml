@@ -59,7 +59,7 @@ jobs:
           haxelib install flixel-addons
           haxelib install flixel-ui
           haxelib install spinehaxe
-          haxelib git discord_rpc_yce https://github.com/Snoni/discord-rpc-yce.git
+          haxelib git discord_rpc_yce https://github.com/LEON-BROTHER/discord_rpc_yce
           haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit.git
           haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit.git
           haxelib git flixel-textureatlas-yoshiengine https://github.com/ThatOneIdiotXav/flixel-textureatlas-yoshiengine.git
@@ -125,7 +125,7 @@ jobs:
           haxelib install flixel-addons
           haxelib install flixel-ui
           haxelib install spinehaxe
-          haxelib git discord_rpc_yce https://github.com/Snoni/discord-rpc-yce.git
+          haxelib git discord_rpc_yce https://github.com/LEON-BROTHER/discord_rpc_yce
           haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit.git
           haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit.git
           haxelib git flixel-textureatlas-yoshiengine https://github.com/ThatOneIdiotXav/flixel-textureatlas-yoshiengine.git
