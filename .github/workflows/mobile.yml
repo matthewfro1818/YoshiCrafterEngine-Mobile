@@ -143,11 +143,11 @@ jobs:
           cd export/release/ios/build/Release-iphoneos
           mkdir Payload
           mv *.app Payload
-          zip -r CodenameEngine.ipa Payload
+          zip -r YoshiCrafterEngine_Ios.ipa Payload
       - name: Make Zip For Release
         run: |
            cd export/release/ios/build/Release-iphoneos
-           zip YoshiCrafterEngine-iOS.zip YoshiCrafterEngine.ipa
+           zip YoshiCrafterEngine_Ios.zip YoshiCrafterEngine_Ios.ipa
       - name: Upload Artifact
         if: ${{ success() }}
         uses: actions/upload-artifact@main
