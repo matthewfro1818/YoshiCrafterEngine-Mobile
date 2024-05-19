@@ -67,6 +67,7 @@ jobs:
           haxelib git flixel-yc29 https://github.com/Yoshman29-FunkinArchive/flixel.git
           haxelib git hxCodec https://github.com/polybiusproxy/hxCodec.git
           haxelib git spinehaxe https://github.com/bendmorris/spinehaxe.git
+          haxelib install hxp
           haxelib install hxcpp-debug-server
       - name: Configure Android
         run: |
@@ -133,6 +134,7 @@ jobs:
           haxelib git flixel-yc29 https://github.com/Yoshman29-FunkinArchive/flixel.git
           haxelib git hxCodec https://github.com/polybiusproxy/hxCodec.git
           haxelib git spinehaxe https://github.com/bendmorris/spinehaxe.git
+          haxelib install hxp
           haxelib install hxcpp-debug-server
       - name: Compile
         run: haxelib run lime build ios -final
@@ -145,7 +147,7 @@ jobs:
       - name: Make Zip For Release
         run: |
            cd export/release/ios/build/Release-iphoneos
-           zip CodenameEngine-iOS.zip CodenameEngine.ipa
+           zip YoshiCrafterEngine-iOS.zip YoshiCrafterEngine.ipa
       - name: Upload Artifact
         if: ${{ success() }}
         uses: actions/upload-artifact@main
